@@ -5,8 +5,13 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      dropShadow: {
+        'vue' : '0 0 2em #4eb842',
+      }
+    },
   },
   plugins: [],
+  darkMode: 'class',
 }
 

@@ -1,0 +1,24 @@
+<template>
+    <div
+        class="
+            w-16
+            h-16
+            flex
+            justify-center
+            items-center
+            float-left
+            shrink-0
+        "
+    >
+        <img 
+            src="../../assets/vue.svg" 
+            class="
+                w-10
+                h-10
+                flex
+                hover:drop-shadow-vue
+            " 
+            alt="Logo"
+        >
+    </div>
+</template>
