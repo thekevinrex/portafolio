@@ -132,7 +132,7 @@ const projects = [
         image : 'projects/portafolio.png',
         des  : __('portafolio-des'),
         url  : {
-            github : 'https://github.com',
+            github : 'https://github.com/thekevinrex/portafolio',
         },
         float : 'float-left',
         tags : ['Html', 'TailwindCSS', 'Vue Js']
