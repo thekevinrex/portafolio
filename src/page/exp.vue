@@ -10,7 +10,6 @@
 
         <div class="
             md:max-w-[80%]
-            max-w-[90%]
             flex
             flex-wrap
             flex-row

@@ -9,7 +9,7 @@
         cursor-pointer
         font-bold
         dark:text-white
-        dark:hover:bg-neutral-800
+        dark:hover:bg-neutral-700
     ">
         <slot></slot>
     </a>

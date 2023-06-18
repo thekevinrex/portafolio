@@ -4,7 +4,6 @@
         top-0
         left-0
         w-full
-        h-16
         z-50
     ">
         <div class="
@@ -13,16 +12,33 @@
             flex
             justify-between
         ">
-        
-            <navbar-icon></navbar-icon>
+            <div class="flex space-x-1 items-center">
+                <div class="
+                    flex
+                    md:hidden
+                    w-10
+                    h-10
+                    rounded-md
+                    justify-center
+                    items-center
+                    dark:text-white
+                " @click="toggle = !toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-justify" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                </div>
+
+                <navbar-icon></navbar-icon>
+            </div>
 
             <div class="
-                flex
                 justify-center
                 items-center
                 space-x-2
                 h-16
                 w-auto
+                hidden
+                md:flex
             ">
                 <navbar-link :href="item.url" v-for="(item, index) in navbarLinks" :key="index">
                     {{ item.name }}
@@ -58,6 +74,21 @@
                 </navbar-social>
             </div>
         </div>
+
+        <div v-if="toggle" class="
+            w-full
+            h-auto
+            md:hidden
+            flex
+            flex-col
+            space-y-2
+            justify-center
+            p-5
+        ">
+            <navbar-link :href="item.url" v-for="(item, index) in navbarLinks" :key="index">
+                {{ item.name }}
+            </navbar-link>
+        </div>
     </nav>
 </template>
 
@@ -81,6 +112,7 @@ export default {
     },
     data () {
         return {
+            toggle : false,
             navbarLinks : [
                 {name : __('Home'), url : '#home'},
                 {name : __('Abaut me'), url : '#about_mi'},

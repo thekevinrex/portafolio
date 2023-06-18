@@ -77,6 +77,21 @@
                         <span class="bg-sky-600 dark:bg-purple font-semibold text-sm py-[2px] m-1 text-white rounded-md px-1" v-for="tag in item.tags">{{ tag }}</span>
 
                     </div>
+
+                    <div v-if="Object.keys(item.url).length > 0" class="flex justify-between flex-row space-x-4 p-2">
+                        <a target="_blank" rel="noopener noreferrer" v-if="item.url.github" :href="item.url.github" class="
+                            py-2
+                            w-full
+                            px-4
+                            font-bold
+                            text-sm
+                            text-center
+                            rounded-full
+                            dark:hover:bg-purple
+                            hover:bg-sky-700
+                            hover:text-white
+                        ">{{ __('See on Github') }}</a>
+                    </div>
                 </div>
             </div>
 
@@ -85,7 +100,7 @@
 
         <div class="my-5">
 
-            <a :href="socialLinks.github" class="
+            <a target="_blank" rel="noopener noreferrer" :href="socialLinks.github" class="
                 py-2
                 px-4
                 font-bold

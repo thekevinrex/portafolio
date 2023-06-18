@@ -66,7 +66,7 @@
 
     <div class="flex justify-evenly flex-wrap space-x-5 mt-5">
 
-        <a :href="socialLinks.github" class="
+        <a target="_blank" rel="noopener noreferrer" :href="socialLinks.github" class="
             border
             border-white
             text-white
@@ -84,7 +84,7 @@
             </svg>
         </a>
         
-        <a :href="socialLinks.linkedin" class="
+        <a target="_blank" rel="noopener noreferrer" :href="socialLinks.linkedin" class="
             border
             border-white
             text-white
@@ -102,7 +102,7 @@
             </svg>
         </a>
         
-        <a :href="socialLinks.mail" class="
+        <a  :href="socialLinks.mail" class="
             border
             border-white
             text-white
