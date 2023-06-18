@@ -11,8 +11,7 @@
   "dependencies": {
     "@duskmoon/vue3-typed-js": "^0.0.4",
     "typed.js": "^2.0.16",
-    "vue": "^3.2.47",
-    "vue-typed-js": "^0.1.2"
+    "vue": "^3.2.47"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",
