@@ -1,0 +1,34 @@
+{
+    "Home" : "Inicio",
+    "Abaut me" : "Sobre mi",
+    "Projects" : "Proyectos",
+    "Contact" : "Contacto",
+
+    "Hello" : "Hola",
+    "I´m" : "Yo soy",
+    "hero-des" : "Yo soy un desarrollador web extremadamente motivado y apasionado acerca del aprendizaje de nuevas tecnologías y el trabajo en equipo que me permita crecer en el área profesional",
+    "Download CV" : "Descarga mi CV",
+    "Hire me" : "Contratame",
+    "Coder" : "Programador",
+    "Designer" : "Diseñador",
+    "Abaut Kevin González Gómez" : "Sobre Kevin González Gómez",
+    "abaut-des" : "Yo soy un desarrollador web extremadamente motivado y apasionado acerca del aprendizaje de nuevas tecnologías y el trabajo en equipo que me permita crecer en el área profesional. <br><br> Mi experiencia como un desarrollador web viene del auto aprendizaje de las ultimas tecnologías como son Laravel, Vue.js y TailwindCSS y el uso de ellas en el desarrollo de proyectos personales y sociales.",
+
+    "Web Development" : "Desarrollo web",
+    "web-des" : "Mi experiencia como un desarrollador web viene del auto aprendizaje de las ultimas tecnologías como son Laravel, Vue.js y TailwindCSS y el uso de ellas en el desarrollo de proyectos personales y sociales.",
+    "Student" : "Estudiante",
+    "student-des" : "Ingeniería en Ciencias Informáticas, Universidad de las Ciencias Informáticas, Cuba (2021- actualidad) <br><br> Bachillerato, en el IPVCE Eusebio Oliveras Rodríguez de la provincia Sancti Spíritus, Cuba entre 2016 - 2019.",
+    "Database Design" : "Diseño Base de datos",
+
+    "projects-des" : "Estos son algunos de los projectos que he creado recientemente",
+    "Recent Projects" : "Proyectos recientes",
+    "See more projects" : "Ver mas proyectos",
+
+    "Lets talk" : "Hablemos",
+    "contact-des" : "Contactame para iniciar tu proyecto de desarrollo web y hare que tu vision se vuelva realidad",
+    "Contact me" : "Contactame",
+    "footer-des" : "Aprendo y creo todos los dias <br> Creemos un projecto juntos",
+    "copyright" : "Creado por Kevin González Gómez (2023) &#169;",
+
+    "portafolio-des" : "Este es el portafolio actual para mostrar mis proyectos y mi informacion personal."
+}

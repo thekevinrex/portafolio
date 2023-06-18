@@ -1,7 +1,7 @@
 <template>
     <div
         class="
-            w-16
+            w-44
             h-16
             flex
             justify-center
@@ -11,9 +11,9 @@
         "
     >
         <img 
-            src="../../assets/vue.svg" 
+            src="../../assets/red_logo.png" 
             class="
-                w-10
+                w-40
                 h-10
                 flex
                 hover:drop-shadow-vue

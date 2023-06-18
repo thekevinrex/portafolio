@@ -1,5 +1,5 @@
 <template>
-    <div class="
+    <a target="_blank" rel="noopener noreferrer" class="
         text-base
         tracking-tight
         rounded-full
@@ -12,5 +12,5 @@
         dark:text-white
     ">
         <slot></slot>
-    </div>
+    </a>
 </template>
