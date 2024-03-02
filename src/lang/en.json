@@ -1,18 +1,25 @@
 {
-    "hero-des" : "I´m a web developer extremely motivated and passionate about learning new technologies and team work that allows me grow up in the professional area.",
+	"hero-des": "+3 years with experience as <span class='text-purple dark:text-sky-700'>Fullstack developer</span> in the creation of web applications",
 
-    "abaut-des" : "I´m a web developer extremely motivated and passionate about learning new technologies and team work that allows me grow up in the professional area. <br><br> My expertiese as a web developer come from the auto learning of the last technologies like Laravel, Vue Js and TailwindCSS and the use of those in the development of personal and social projects.",
+	"abaut-des": "I´m a web developer extremely motivated and passionate about learning new technologies and team work that allows me grow up in the professional area. <br><br> My expertiese as a web developer come from the auto learning of the last technologies like Laravel, Vue Js and TailwindCSS and the use of those in the development of personal and social projects.",
 
-    "web-des" : "My expertiese as a web developer come from the auto learning of the last technologies like Laravel, Vue Js and TailwindCSS and the use of those in the development of personal and social projects.",
+	"web-des": "My expertiese as a web developer come from the auto learning of the last technologies like Next JS, React, Laravel, Vue Js and TailwindCSS and the use of those in the development of personal and social projects.",
 
-    "student-des" : "Computer Science Engineering, University of Computer Sciences, Cuba (2021- present) <br><br> Baccalaureate, at the IPVCE Eusebio Oliveras Rodríguez of the province of Sancti Spíritus, Cuba between 2016 - 2019.",
+	"student-des": "Computer Science Engineering, University of Computer Sciences, Cuba (2021- present) <br><br> Baccalaureate, at the IPVCE Eusebio Oliveras Rodríguez of the province of Sancti Spíritus, Cuba between 2016 - 2019.",
 
-    "projects-des" : "This are some of the most recent projects that i have created",
+	"projects-des": "This are some of the most recent projects that i have created",
 
-    "contact-des" : "Contact me to start your web development project and i will make your dreams come true.",
-    
-    "footer-des" : "I learn and make every day <br> Lets build a project toogther",
-    "copyright" : "Created by Kevin González Gómez (2023) &#169;",
+	"contact-des": "Contact me to start your web development project.",
 
-    "portafolio-des" : "Este es el portafolio actual para mostrar mis proyectos y mi informacion personal. <br>Features: <ol><li>- Puede cambiar de tema</li><li>- Puede cambiar de idioma</li></ol>"
+	"footer-des": "I learn and make every day <br> Lets build a project toogther",
+	"copyright": "Created by Kevin González Gómez (2023) &#169;",
+
+	"portafolio-des": "Este es el portafolio actual para mostrar mis proyectos y mi informacion personal. <br>Features: <ol><li>- Puede cambiar de tema</li><li>- Puede cambiar de idioma</li></ol>",
+
+	"TCP_manager_des": "Application that allows you to maintain an accurate and up-to-date control of your inventories, providing real-time information on the availability of your products",
+	"ojs_migrator_des": "Application to migrate information from OJS 2.x versions to OJS 3.x versions",
+	"mvc_framework_des": "PHP framework with the main objective of creating a bridge between php and vue 3, which allows developers to have all the reactivity of vue 3 without having to leave php",
+
+	"see_live": "See on live",
+	"see_github": "See on github"
 }
