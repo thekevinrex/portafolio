@@ -2,10 +2,15 @@
     <section id="home" class="
         w-full
         h-full
-        md:h-screen
+        min-h-screen
+        
         flex 
-        flex-row
-        flex-wrap
+        flex-col
+        lg:flex-row
+
+        items-center
+        justify-center
+        
         overflow-hidden
         relative
     ">
@@ -26,30 +31,31 @@
         </ul>
 
         <div class="
-            md:w-3/5
+            max-w-3/5
             w-full
             h-auto
             flex
-            flex-wrap
-            justify-center
-            items-center
-            mt-16
-            p-[10%]
+            p-20
             dark:text-white
         ">
             <div class="
                 flex
                 flex-col
-                w-auto
+                w-full
                 space-y-5
             ">
+
+                <img src="../assets/20160804_140543-1-removebg-preview.png"
+                    class="flex lg:hidden w-32 h-32 rounded-full" alt="User image">
+
                 <span class="
                     text-2xl
                     tracking-wide
                     flex
                     items-end
+                    font-black
                 ">
-                    {{ __('Hello') }}
+                    {{ __('¡Hello! I`m Kevin González') }}
                     <div class="
                         w-8
                         rounded-full
@@ -58,38 +64,35 @@
                         mb-1
                         bg-purple 
                         dark:bg-sky-700
-                    "
-                    ></div>
+                    "></div>
                 </span>
 
                 <Typed :options="options">
                     <div class="flex flex-row">
                         <h1 class="
                             w-auto
-                            text-6xl
-                            sm:text-6xl
+                            text-3xl
+                            sm:text-4xl
                             md:text-5xl
-                            lg:text-7xl
+                            lg:text-6xl
                             font-black
                         ">
                             <span>{{ __('I´m') }}</span>
-                            
-                                <span class="typing text-purple dark:text-sky-700 ml-3 break-all"></span>
-                                
-                            </h1>
+
+                            <span class="typing text-purple dark:text-sky-700 ml-3 break-all"></span>
+
+                        </h1>
                     </div>
                 </Typed>
 
                 <p class="
                     w-auto
-                    flex
-                    max-w-[80%]
-                    text-sm
-                ">
-                    {{ __('hero-des') }}
-                </p>
+                    max-w-prose
+                    text-lg
+                " v-html="__('hero-des')"></p>
 
-                <div class="flex justify-center space-x-3">
+
+                <div class="flex mt-4 gap-3 flex-wrap">
 
                     <a href="CV.pdf" download class="
                         py-2
@@ -103,7 +106,7 @@
                         hover:bg-purple
                         dark:hover:bg-sky-700
                     ">{{ __('Download CV') }}</a>
-                    
+
                     <a :href="socialLinks.mail" class="
                         py-2
                         px-4
@@ -122,11 +125,11 @@
         </div>
 
         <div class="
-            md:w-2/5
-            w-full
-            h-auto
-            flex
-
+            shrink-0
+            w-[530px]
+            h-screen
+            lg:flex
+            hidden
         ">
             <img src="../assets/20160804_140543-1-removebg-preview.png" class="
                 w-full
@@ -147,23 +150,23 @@
 <script setup lang="ts">
 
 
-    import { inject } from 'vue';
-    import { __ } from '../translator';
-    import { Typed } from "@duskmoon/vue3-typed-js";
+import { inject } from 'vue';
+import { __ } from '../translator';
+import { Typed } from "@duskmoon/vue3-typed-js";
 
-    let strings = [
-        String(__('Coder')) ,
-        String(__('Designer')),
-    ];
+let strings = [
+    String(__('Coder')),
+    String(__('Designer')),
+];
 
-    const options = {
-        strings : strings,
-        loop: true,
-        typeSpeed: 100,
-        backSpeed: 80,
-        backDelay: 1500,
-    }
+const options = {
+    strings: strings,
+    loop: true,
+    typeSpeed: 100,
+    backSpeed: 80,
+    backDelay: 1500,
+}
 
-    const socialLinks = inject('socialLinks');
+const socialLinks = inject('socialLinks');
 
 </script>
